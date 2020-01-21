@@ -28,7 +28,7 @@ public:
   double get_purchase_price() const;
 
   // compute the net worth of the stock holdings
-  double sell_value() const;
+  virtual double sell_value() const;
 
  private:
   double purchase_price = 0;    // price per holding  

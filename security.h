@@ -1,6 +1,6 @@
 
 //----------------------------------------------------------------------
-// Author:
+// Author: Kevin Lunden
 // Assignment: 1
 //
 // Basic class for representing a general financial security

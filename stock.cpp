@@ -1,6 +1,6 @@
 
 //----------------------------------------------------------------------
-// Author:
+// Author: Kevin Lunden
 // Assignment: 1
 //----------------------------------------------------------------------
 
@@ -13,16 +13,16 @@ Stock::Stock(std::string the_symbol) : Security(the_symbol)
 
 void Stock::set_purchase_price(double the_purchase_price)
 {
-  // TODO
+  purchase_price = the_purchase_price;
 }
 
 double Stock::get_purchase_price() const
 {
-  // TODO
+  return purchase_price;
 }
 
 double Stock::sell_value() const
 {
-  // TODO
+  return ((get_share_value() - get_purchase_price()) * get_holdings());
 }
 
